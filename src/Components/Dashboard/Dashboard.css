@@ -1,0 +1,92 @@
+.Dashboard-Component{
+    background-color: black;
+    width: 100vw;
+    height: 100%; 
+}
+.Header-section{
+    position: fixed;
+    right: 10px;
+    top: 0px;
+    z-index: 1;
+}
+.Header-icon{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    padding-top: 5px;
+}
+.Progress-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.number{
+    color: #2d7839;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 20vw;
+
+}
+.Moptro-logo{
+    width: 75px;
+    height: 75px;
+}
+
+.ProgressBar-List{
+    background-color: #131715;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 15px;
+    
+}
+
+.Dashboard-heading-text{
+    color: #FFFFFFB3;
+    background-color: #1A2C2C99;
+    padding: 15px 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+
+
+
+
+
+
+.progress-container {
+    background-color: #131715;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    width: 200px;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #36A54680; 
+    border: 1px solid #36A546;
+    border-radius: 10px;
+   
+  }
+  
+  .Weekday-and-progress{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 5px;
+    
+  }
+  .Weekday,.Progress-Precentage{
+    color: #ddd;
+    font-size: 15px;
+  }

@@ -1,0 +1,93 @@
+.Employee-list-Component{
+    background-color: black;
+    width: 100%;
+}
+.Search-and-employeelist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.Search_section{
+    background-color: #131615;
+    box-shadow:inset 0px 3px 3px #67666640;
+    border-radius: 20px;
+    border: 1px solid #1F191966;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.Search-Input{
+    background-color: #131615;
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    color: #888;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0px;
+    /* text-align: center; */
+}
+.Search-Input::placeholder{
+    text-align: center;
+    color: #b8b9b8;
+    font-weight: bold;
+}
+.Search-icon{
+    height: 25px;
+    width: 25px;
+    margin-top: 0px;
+}
+.Employee-list-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.Employee-Id{
+    color: #abacac;
+    border: 1px solid black;
+    background-color: #191f1f;
+    border-radius: 50%;
+    padding: 5px 10px;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 0px;
+}
+.Each-Employee-Even,.Each-Employee-Odd{
+    background-color: #131816;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Employee-Detail{
+    color: #abacac;
+}
+
+@media (max-width:450px){
+    .Search-Input{
+        width: 250px;
+    }
+    .Employee-list-section{
+        width:80%;
+    }
+    
+    .Each-Employee-Even {
+        align-self: flex-end;
+    }
+      
+    .Each-Employee-Odd{
+        align-self: flex-start;  
+    }
+     
+}

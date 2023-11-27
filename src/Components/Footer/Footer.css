@@ -1,0 +1,18 @@
+.Footer-component{
+    position: fixed;
+    width: 100%;
+    bottom: -5px;
+    background-color: #0F2323;
+    display: flex;
+    justify-content: space-around;
+    height: 63px;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.footer-icons{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}

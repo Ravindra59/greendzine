@@ -1,0 +1,72 @@
+.Login-component{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Logo-section{
+    margin-top: 1px;
+}
+.Greendzine-logo{
+    width: 90px;
+    height: 90px;
+}
+.Sub-text{
+    color: #36A546CC;
+   font-size: 16px;
+   font-weight: 50;
+   font-size: 16px;
+}
+.Form-section{
+    display: flex;
+    flex-direction: column;
+}
+.Email-input,.Password-input{
+    background-color: #1F191966;
+    box-shadow:inset 0px 3px 3px #67666640;
+    border-radius: 15px;
+    width: 300px;
+    height: 42px;
+    padding-left: 15px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #1F191966;
+    color: #888;
+    font-size: 17px;
+    font-weight: 500;
+
+
+}
+.Email-input::placeholder,.Password-input::placeholder{
+    color: #555;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.Login-button{
+   background: linear-gradient(180deg, #00FF2580 0%, #171616 100%, #36A54680 100%);
+   border: 2px solid #8CFF0026;
+   color: #aaa;
+   font-weight: bold;
+   border-radius: 30px;
+   padding: 10px 20px;
+   /* height: 42px; */
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+.Forgot-password-text{
+    color: #00FF2580;
+}
+
+@media (max-width:360px){
+    .Email-input,.Password-input{
+        width: 280px;
+    }
+}
